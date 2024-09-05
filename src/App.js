@@ -13,23 +13,23 @@ function App() {
         nombre='nombre'
         lugar='pais'
         cargo="cargos"
+        imagen="uno"
         />
         <Test
         nombre='sin nombre'
         lugar='allá'
         cargo="sin cargo"
+        imagen="dos"
         />
         <Test
         nombre='sin -----'
         lugar='paisito'
         cargo="sin cargo"
+        imagen="tres"
         />
-        <Test
-        nombre='sin -----'
-        lugar='paisito'
-        cargo="sin cargo"
-        />
+        
       </div>
+     
     </div>
   );
 }

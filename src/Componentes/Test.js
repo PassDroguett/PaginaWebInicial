@@ -5,16 +5,21 @@ function Test (props){
     return(
         <div className="contenedorIM">
             <img className="imagentest"
-            src={require('../Imagenes/luluwpp.gif')}
+            src={require(`../Imagenes/esperando-${props.imagen}.gif`)}
             alt="LogoTest"/>
+            {/* <div className="espacio">              </div> */}
 
             <div className="ContenedorTexto">
-                <p className="Nombre"> {props.nombre}  en {props.lugar}</p>
-                <p className="Cargo">{props.cargo} en Elemento hhhhhhhhhggg hggggggggj</p>
-                <p className="TextoCompleto">{props.testimonio}</p>
-                <button>Boton</button>
+                <p className="Nombre"> <strong> {props.nombre} </strong>  en {props.lugar}</p>
+                <p className="Cargo"> Contiene Cargo En : {props.cargo}</p>
+                <p className="TextoCompleto">   esta es una app de prueba                                             {props.testimonio}</p>
+                
+                
             </div>
+            
         </div>
+        
+        
     );
 }
 
